@@ -1,0 +1,72 @@
+components:
+  language_switcher:
+    change_language: dili değiştir
+  theme_switcher:
+    theme: tema
+    change_theme: temayı değiştir
+pages:
+  '404':
+    title: sayfa bulunamadı
+  index:
+    title: nuxt 3[]harika[]başlangıç
+  blank:
+    nav: boşluk
+    title: boş sayfa
+    description: bu boş bir sayfadır
+    just_blank_page_with_title: başlıklı sadece boş sayfa
+  post:
+    nav: postalamak
+    title: postalamak
+    description: bu bir gönderi sayfasıdır
+  test:
+    nav: ölçek
+    title: test yapmak
+    description: bu bir test sayfasıdır
+    counter: tezgah
+    increment: artış
+    decrement: azalma
+    reset: sıfırla
+    identity: kimlik
+    full_name: ad soyad
+  getting-started:
+    nav: başlarken
+    title: başlarken
+    description: bu bir başlangıç ​​sayfasıdır
+  setting:
+    nav: ayar
+    title: ayar
+    description: bu bir ayar sayfasıdır
+    sections:
+      validate_username:
+        title: github profilini doğrula
+        description: github kullanıcı adınızı yazın ve doğrulamak için düğmeye tıklayın.
+        footer: hakkında daha fazla öğren
+        footer_button: doğrulamak
+        footer_link: github kullanıcı api'si
+      bot_id:
+        title: bot kimliği
+        description: bu sizin bot kimliğinizdir.
+        footer: botla etkileşime girerken kullanılır.
+      protection_spam:
+        title: spam koruması
+        description: geçiş etkinleştir kırmızı kenarlığı kaldırmak için
+        footer: etkinleştirirseniz, yorumlarınızı spam'den koruyacağız
+      advanced_enable_advanced:
+        title: gelişmiş ayarları etkinleştir
+        description: ayarları değiştirmek için gelişmiş ayarları etkinleştirebilirsiniz
+      advanced_dir_listing:
+        title: dizin listesi
+        description: bir dizinde dizin dosyası yoksa, dizin içeriği görüntülenecektir.
+  dashboard:
+    nav: gösterge paneli
+    title: gösterge paneli
+    index:
+      nav: ev
+      title: ev
+banners:
+  welcome: merhaba, %{app_name}'a hoş geldiniz!
+others:
+  learn_more: daha fazla bilgi edin
+  copy: kopyalamak
+  enabled: etkinleştirilmiş
+  disabled: engelli

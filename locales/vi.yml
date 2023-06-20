@@ -1,0 +1,74 @@
+components:
+  language_switcher:
+    change_language: thay đổi ngôn ngữ
+  theme_switcher:
+    theme: chủ đề
+    change_theme: thay đổi chủ đề
+pages:
+  '404':
+    title: không tìm thấy trang
+  index:
+    title: nuxt 3[]awesome[]starter
+  blank:
+    nav: trống
+    title: trang trống
+    description: đây là một trang trống
+    just_blank_page_with_title: chỉ trang trống với tiêu đề
+  post:
+    nav: bưu kiện
+    title: bưu kiện
+    description: đây là một trang đăng bài
+  test:
+    nav: bài kiểm tra
+    title: thử nghiệm
+    description: đây là trang thử nghiệm
+    counter: quầy tính tiền
+    increment: tăng
+    decrement: giảm bớt
+    reset: cài lại
+    identity: danh tính
+    full_name: họ và tên
+  getting-started:
+    nav: bắt đầu
+    title: bắt đầu
+    description: đây là trang bắt đầu
+  setting:
+    nav: cài đặt
+    title: cài đặt
+    description: đây là trang cài đặt
+    sections:
+      validate_username:
+        title: xác thực hồ sơ github
+        description: nhập tên người dùng github của bạn và nhấp vào nút để xác thực.
+        footer: học nhiều hơn về
+        footer_button: xác thực
+        footer_link: người dùng github api
+      bot_id:
+        title: id bot
+        description: đây là id bot của bạn.
+        footer: được sử dụng khi tương tác với bot.
+      protection_spam:
+        title: sự bảo vệ spam
+        description: bật/tắt để xóa viền đỏ
+        footer: nếu được bật, chúng tôi sẽ bảo mật nhận xét của bạn khỏi thư rác
+      advanced_enable_advanced:
+        title: bật cài đặt nâng cao
+        description: bạn có thể bật cài đặt nâng cao để thay đổi cài đặt
+      advanced_dir_listing:
+        title: danh sách thư mục
+        description: >-
+          nếu không có tệp chỉ mục nào trong một thư mục, nội dung thư mục sẽ
+          được hiển thị.
+  dashboard:
+    nav: bảng điều khiển
+    title: bảng điều khiển
+    index:
+      nav: trang chủ
+      title: trang chủ
+banners:
+  welcome: xin chào, chào mừng đến với %{app_name}!
+others:
+  learn_more: tìm hiểu thêm
+  copy: sao chép
+  enabled: kích hoạt
+  disabled: tàn tật
